@@ -31,7 +31,6 @@ button:hover {
     margin: auto;
     padding: 35%;
     border-radius: 3%;
-    border: 2px solid red;
     opacity: 0;
     transform: scale(0.5);
     transition: all 3s ease;
