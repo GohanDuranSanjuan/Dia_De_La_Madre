@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    color: #B557E6;
+}
+img {
+    margin: auto;
+    display: block;
+    width: 20%;
+}
+button {
+    background-color: #B557E6;
+    padding: 1%;
+    border-radius: 30%;
+    border: none;
+    margin: 2%;
+}
+button:hover {
+    background-color: #471E59;
+}
+.carta{
+    background-image:url("imagenes/carta.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 28%;
+    border-radius: 3%;
+    border: 2px solid red;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 3s ease;
+}
+p {
+    font-size: 230%;
+}
+.fin {
+    margin-bottom: 20%;
+}
+.fuera {
+    display: none;
+}
+.abrir{
+    opacity: 1;
+    transform: scale(1);
+}
+@media (max-width: 600px){
+    body{
+        background-color: green;
+    }
+    h1 {
+        font-size: large;
+    }
+    img{
+        width: 40%;
+    }
+}
